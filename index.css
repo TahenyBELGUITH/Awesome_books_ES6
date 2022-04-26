@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin-right: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+span {
+  float: right;
+  padding: 12px;
+}
+
+.main {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card-form {
+  /* border: 2px solid black; */
+  padding: 2rem;
+}
+
+.card-form h3 {
+  margin: 0 0 18px 0;
+}
+
+.card-form input[type=text] {
+  padding: 1rem;
+  width: 50%;
+}
+
+.card-form button {
+  width: 8%;
+  border: 1px solid #000;
+  outline: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.addedBooks {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#sectionBook {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 19px;
+  width: 100%;
+}
+
+#sectionBook:nth-child(even) {
+  background-color: rgb(176, 170, 170);
+}
+
+.contact-info {
+  margin: 2rem auto;
+  line-height: 32px;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: gray;
+  margin: 1rem 0 0 0;
+}
+
+.hide {
+  display: none;
+}
