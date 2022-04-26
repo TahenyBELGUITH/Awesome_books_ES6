@@ -9,7 +9,7 @@ export function clearData() {
 }
 
 // display books
-export function displayBook() {
+export const displayBook = () => {
   bookSection.innerHTML = '';
   for (let i = 0; i < bookList.length; i += 1) {
     bookSection.innerHTML
@@ -29,11 +29,11 @@ export function displayBook() {
         deleteData(btn.id); // eslint-disable-line
       });
     });
-}
+};
 
 // delete function
-function deleteData(id) {
+const deleteData = (id) => {
   bookList = bookList.filter((books) => books.id !== +id);
   localStorage.book = JSON.stringify(bookList);
   displayBook();
-}
+};

@@ -45,8 +45,8 @@ contactNav.addEventListener('click', () => {
   contactLinkPage.style.display = 'block';
 });
 
-function displayTime() {
+const displayTime = () => {
   document.querySelector('#calendar').innerHTML = luxon.DateTime.now().toLocaleString(luxon.DateTime.DATETIME_SHORT_WITH_SECONDS);
   setTimeout(displayTime, 1000);
-}
+};
 displayTime();
