@@ -3,7 +3,7 @@ import { titleBook, authorBook, bookSection } from './declaration.js';
 export let bookList = JSON.parse(localStorage.getItem('book')) || [];  // eslint-disable-line
 
 // clear inputs
-export function clearData() {
+export const clearData = () => {
   titleBook.value = '';
   authorBook.value = '';
 }
