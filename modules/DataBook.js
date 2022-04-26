@@ -6,7 +6,7 @@ export let bookList = JSON.parse(localStorage.getItem('book')) || [];  // eslint
 export const clearData = () => {
   titleBook.value = '';
   authorBook.value = '';
-}
+};
 
 // display books
 export const displayBook = () => {

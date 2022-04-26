@@ -1,6 +1,6 @@
 # awesomeBookModules
 
->This project is a book application were you are able to add and remove book to a list
+>This project is a book application were you are able to add and remove book to a list using LocalStorage
 
 
 ## Features implemented so far are:
